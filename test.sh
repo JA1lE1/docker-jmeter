@@ -5,9 +5,9 @@
 # Example for using User Defined Variables with JMeter
 # These will be substituted in JMX test script
 # See also: http://stackoverflow.com/questions/14317715/jmeter-changing-user-defined-variables-from-command-line
-export TARGET_HOST="http://35.202.159.177"
-export TARGET_PORT="9870"
-export TARGET_PATH=""
+export TARGET_HOST="https://beta-dlab.datafountain.cn"
+export TARGET_PORT="443"
+export TARGET_PATH="/login.html"
 export TARGET_KEYWORD=""
 
 T_DIR=tests/trivial
